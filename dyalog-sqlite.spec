@@ -12,7 +12,6 @@ Source:		ftp://ftp.inria.fr/INRIA/Projects/Atoll/Eric.Clergerie/TAG/%{name}-%{ve
 Url:		http://atoll.inria.fr/packages/packages.html#dyalog-xml
 BuildRequires:	dyalog
 BuildRequires:	sqlite3-devel
-Buildroot:	%{_tmppath}/%{name}-%{version}
 
 %description
 A DyALog module providing predicates over SQLITE3 API. This module, while very
