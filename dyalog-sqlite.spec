@@ -1,6 +1,6 @@
 %define name	dyalog-sqlite
 %define version 1.0.0
-%define release %mkrel 3
+%define release %mkrel 4
 
 Name:		%{name}
 Version:	%{version}
@@ -12,6 +12,7 @@ Source:		ftp://ftp.inria.fr/INRIA/Projects/Atoll/Eric.Clergerie/TAG/%{name}-%{ve
 Url:		http://atoll.inria.fr/packages/packages.html#dyalog-xml
 BuildRequires:	dyalog
 BuildRequires:	sqlite3-devel
+ExclusiveArch:  %{ix86}
 
 %description
 A DyALog module providing predicates over SQLITE3 API. This module, while very
