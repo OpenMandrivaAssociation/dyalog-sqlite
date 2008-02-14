@@ -8,6 +8,7 @@ Release:	%{release}
 Summary:	DyAlog SQLITE module
 License:	GPL
 Group:		Sciences/Computer science
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Source:		ftp://ftp.inria.fr/INRIA/Projects/Atoll/Eric.Clergerie/TAG/%{name}-%{version}.tar.bz2
 Url:		http://atoll.inria.fr/packages/packages.html#dyalog-xml
 BuildRequires:	dyalog
