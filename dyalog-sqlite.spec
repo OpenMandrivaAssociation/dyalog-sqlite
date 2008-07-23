@@ -1,6 +1,6 @@
 %define name	dyalog-sqlite
 %define version 1.0.0
-%define release %mkrel 4
+%define release %mkrel 6
 
 Name:		%{name}
 Version:	%{version}
