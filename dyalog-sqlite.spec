@@ -35,7 +35,7 @@ This package contains development files for %{name}.
 %build
 export CPPFLAGS=-I%{_libdir}/DyALog
 export LDFLAGS=-L%{_libdir}/DyALog
-%configure
+%configure2_5x
 %make
 
 %install
