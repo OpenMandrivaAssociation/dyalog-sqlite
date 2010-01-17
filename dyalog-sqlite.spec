@@ -1,6 +1,6 @@
 %define name	dyalog-sqlite
-%define version 1.0.0
-%define release %mkrel 7
+%define version 1.0.1
+%define release %mkrel 1
 
 Name:		%{name}
 Version:	%{version}
@@ -8,12 +8,12 @@ Release:	%{release}
 Summary:	DyAlog SQLITE module
 License:	GPL
 Group:		Sciences/Computer science
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Source:		ftp://ftp.inria.fr/INRIA/Projects/Atoll/Eric.Clergerie/TAG/%{name}-%{version}.tar.bz2
-Url:		http://atoll.inria.fr/packages/packages.html#dyalog-xml
+Url:		http://dyalog.gforge.inria.fr/
+Source:		https://gforge.inria.fr/frs/download.php/5637/%{name}-%{version}.tar.gz
 BuildRequires:	dyalog
 BuildRequires:	sqlite3-devel
 ExclusiveArch:  %{ix86}
+BuildRoot: %{_tmppath}/%{name}-%{version}
 
 %description
 A DyALog module providing predicates over SQLITE3 API. This module, while very
