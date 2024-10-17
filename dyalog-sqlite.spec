@@ -8,7 +8,7 @@ Release:	%{release}
 Summary:	DyAlog SQLITE module
 License:	GPL
 Group:		Sciences/Computer science
-Url:		http://dyalog.gforge.inria.fr/
+Url:		https://dyalog.gforge.inria.fr/
 Source:		https://gforge.inria.fr/frs/download.php/5637/%{name}-%{version}.tar.gz
 BuildRequires:	dyalog
 BuildRequires:	sqlite3-devel
